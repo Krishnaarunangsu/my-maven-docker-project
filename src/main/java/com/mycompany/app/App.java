@@ -24,15 +24,12 @@ public class App
             server.start();
 
         } catch (IOException e) {
-            // TODO Auto-generated catch block
+
             e.printStackTrace();
         }
 
        
-        /* HttpServer server = HttpServer.create(new InetSocketAddress(8080), 0);
-        server.createContext("/", new MyHandler());
-        server.setExecutor(null); // creates a default executor
-        server.start();*/
+        
     }
 
     static class MyHandler implements HttpHandler {
